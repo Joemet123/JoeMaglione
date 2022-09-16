@@ -1,0 +1,105 @@
+
+
+
+  hr.solid {
+  border-top: 2px solid #00FFFF;
+  }
+
+
+
+  body {
+      background-color: #002633;
+  }
+
+
+
+  a {
+
+  color: pink;
+
+  }
+
+   h1{
+
+    color: White;
+    text-align: center;
+    font-family: Courier;
+    font-size: 60;
+    margin-bottom: 0;
+    padding-bottom: 0;
+     }
+
+     h2{
+
+      color: White;
+      text-align: center;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      font-size: 15;
+      margin-top: 0;
+      padding-top: 0;
+       }
+
+       h3 {
+
+        color: White;
+        text-align: left;
+        font-family: Comic Sans MS, Comic Sans;
+        text-decoration: underline;
+        font-size: 40;
+}
+        h4 {
+
+         color: #99ccff;
+         text-align: left;
+         font-family: Comic Sans MS;
+         text-decoration: underline;
+         font-size: 28;
+
+         font-weight: bold;
+
+
+         }
+
+       para {
+
+         line-height: 1.5;
+         color: White;
+         text-align: left;
+         font-family: Comic Sans MS;
+         text-shadow: 1px 2px #000000;
+         font-size: 19;
+
+
+
+       }
+
+       para2 {
+
+         line-height: 1;
+         color: White;
+         text-align: Center;
+         font-family: Comic Sans MS;
+         text-shadow: 1px 2px #000000;
+         font-size: 12;
+         font-style: italic;
+
+       }
+
+
+
+       .vl {
+  border-left: 6px solid aqua;
+  height: 500px;
+  margin-left: 700px;
+  padding-right: 10px;
+
+
+     .mycss_class_selector {
+       color: blue;
+       text-align:center;
+     }
+
+    #mycss_id_selector {
+       color: green;
+       text-align:center;
+     }
