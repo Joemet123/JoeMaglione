@@ -5,10 +5,9 @@
   border-top: 2px solid #00FFFF;
   }
 
-
-
   body {
-      background-color: #117888;
+     background-image: linear-gradient(red, blue)
+
   }
 
 
@@ -21,7 +20,7 @@
 
    h1{
 
-    color: grey;
+    color: White;
     text-align: center;
     font-family: Courier;
     font-size: 60;
@@ -43,7 +42,7 @@
 
         color: White;
         text-align: left;
-        font-family: Comic Sans MS, Comic Sans;
+        font-family: Courier;
         text-decoration: underline;
         font-size: 40;
 
@@ -60,8 +59,6 @@
 
 
        }
-
-
 
        .vl {
   border-left: 6px solid aqua;
