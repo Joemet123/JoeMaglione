@@ -1,0 +1,122 @@
+
+
+@media print { .screen_only { display: none;} }
+
+@media (max-width: 900px) {
+  /* MOBILE */
+
+
+  body {
+      background-color: #002633;
+      background-image: linear-gradient(#002633, #DB2828);
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+
+    a { color: pink; }
+
+    form {
+      margin-left: 15%;
+      margin-top: 5%;
+    }
+
+    .inline-image{
+        margin-left: 15%;
+        width: 250px;
+        height: 150px;
+        margin-bottom: 10px;
+      }
+
+
+    .box_table>table {
+        margin-left: 15%;
+        margin-bottom: 35px;
+
+        border-width: 2px;
+        border-style: solid;
+        border-color: aqua;
+        border-collapse: collapse;
+        width: 250px;
+        height: 100px
+      }
+
+    .box_table> table th,  .box_table>table td {
+
+        font-family: Comic Sans MS;
+        text-align: center;
+
+        border-width: 2px;
+        border-style: solid;
+        border-color: aqua;
+        border-collapse: collapse;
+        height: 100px
+      }
+
+    .box_table> table th {
+        font-weight: bold;
+        background-color: #0099e6;
+      }
+
+      .box_table> table td {
+        font-family: Comic Sans MS;
+        background-color: #ff99ff;
+      }
+
+     h2 {
+      color: White;
+      text-align: center;
+      font-family: Comic Sans MS, Comic Sans, cursive;
+      font-size: 15;
+      margin-top: 0;
+      padding-top: 0;
+       }
+
+
+      h4 {
+         color: #99ccff;
+         text-align: left;
+         font-family: Comic Sans MS;
+         text-decoration: underline;
+         font-size: 19;
+         font-weight: bold;
+         }
+
+      para {
+         line-height: 1.5;
+         color: White;
+         text-align: left;
+         font-family: Comic Sans MS;
+         text-shadow: 1px 2px #000000;
+         font-size: 14;
+       }
+
+      para2 {
+         line-height: 1;
+         color: White;
+         text-align: Center;
+         font-family: Comic Sans MS;
+         text-shadow: 1px 2px #000000;
+         font-size: 12;
+         font-style: italic;
+       }
+
+      .vl {
+  border-left: 6px solid aqua;
+  height: 500px;
+  margin-left: 700px;
+  padding-right: 10px;
+}
+
+     .mycss_class_selector {
+       color: blue;
+       text-align:center;
+     }
+
+     #mycss_id_selector {
+       color: green;
+       text-align:center;
+     }
+
+
+}
