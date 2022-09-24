@@ -221,11 +221,11 @@
 
  <div>
 
- <form  class="screen_only" action="/action_page.php">
-  <label for="fname">First Name:</label><br>
-  <input type="text" id="fname" name="fname" value=""><br>
-  <label for="lname">Last Name:</label><br>
-  <input type="text" id="lname" name="lname" value=""><br><br>
+ <form  class="screen_only" action="action_page.php" method="POST">
+ <p>Name</p> <input type="text" name="name">
+ <p>Email</p> <input type="text" name="email">
+ <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+ <input type="submit" value="Send"><input type="reset" value="Clear">
   <input type="submit" value="Submit">
 </form>
 
