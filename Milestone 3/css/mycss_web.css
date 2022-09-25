@@ -15,30 +15,28 @@
       padding-right: 5px;
   }
 
+  iframe { margin-left: 3% }
+
   a { color: pink; }
 
-  form {
-    margin-left: 25%;
-    margin-top: 5%;
-  }
+  form { margin-top: 5%; }
 
-  .inline-image{
-    margin-left: 25%;
+  .inline-image {
     width: 515px;
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 15%;
   }
 
   .box_table>table {
-    margin-left: 25%;
+
     margin-bottom: 35px;
 
     border-width: 2px;
     border-style: solid;
     border-color: aqua;
     border-collapse: collapse;
-    width: 515px;
-    height: 300px
+    width: 400px;
+    height: 250px
   }
 
   .box_table> table th,  .box_table>table td {
@@ -50,7 +48,7 @@
     border-style: solid;
     border-color: aqua;
     border-collapse: collapse;
-    height: 100px
+    height: 75px
   }
 
   .box_table> table th {
