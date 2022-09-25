@@ -6,38 +6,36 @@
   /* MOBILE */
 
 
-  body {
+    body {
       background-color: #002633;
       background-image: linear-gradient(#002633, #DB2828);
       padding-left: 5px;
       padding-right: 5px;
   }
 
+    iframe { margin-left: 3% }
 
-    a { color: pink; }
+    a { color: pink;}
 
-    form {
-      margin-left: 15%;
-      margin-top: 5%;
-    }
+    form { margin-top: 5%; }
+
 
     .inline-image{
-        margin-left: 15%;
-        width: 250px;
-        height: 150px;
-        margin-bottom: 10px;
+        width: 100px;
+        height: 50px;
+        margin-bottom: 15%;
       }
 
 
     .box_table>table {
-        margin-left: 15%;
+
         margin-bottom: 35px;
 
         border-width: 2px;
         border-style: solid;
         border-color: aqua;
         border-collapse: collapse;
-        width: 250px;
+        width: 50px;
         height: 100px
       }
 
@@ -50,7 +48,7 @@
         border-style: solid;
         border-color: aqua;
         border-collapse: collapse;
-        height: 100px
+        height: 50px
       }
 
     .box_table> table th {
